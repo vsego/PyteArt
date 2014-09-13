@@ -7,6 +7,7 @@ The project was created as a result of Nick Higham's challenge to make a port of
 
 The main difference from the usual ASCII art is that we allow overlapping characters. While that impairs with display options (usually, ASCII art can be viewed as an ordinary text file, or - at least - in a console, if colouring is required), this approach allows better representation of the image's pixels.
 
+![](demo.png)
 
 
 Programs included
