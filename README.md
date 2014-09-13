@@ -7,6 +7,8 @@ The project was created as a result of Nick Higham's challenge to make a port of
 
 The main difference from the usual ASCII art is that we allow overlapping characters. While that impairs with display options (usually, ASCII art can be viewed as an ordinary text file, or - at least - in a console, if colouring is required), this approach allows better representation of the image's pixels.
 
+
+
 Programs included
 -----------------
 
@@ -15,6 +17,10 @@ Programs included
 * `img2dat.py` -- Converter of images (JPEG, PNG,... anything readable by PIL) to sequences of characters, as described in Nick Higham's original blog post and BASIC program;
 
 * `pyteart.py` -- port of Nick Higham's TypeArt, used for converting DAT data to a HTML file (overlapping of characters is achieved with overlapping DIV blocks).
+
+Programs `patgen.py` and `img2dat.py` require Python 3 Pillow library. In Fedora repositories, this is package `python3-pillow.x86_64`.
+
+
 
 Typical use
 -----------
