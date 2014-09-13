@@ -1,0 +1,39 @@
+                          +----------------+
+                          |     TYPEART    |
+                          +----------------+
+
+This program prints two of Bob Neill's Typewriter Art patterns (`Prince
+Charles' and `The Tabby Cat') to an Epson FX or LQ compatible dot matrix
+printer.  Bob Neill started producing pictures on his typewriter in 1960,
+and his pictures and portraits have appeared in various magazines and
+journals, including `Woman's Realm', `Jackie', `She' and the `Catholic
+Herald'.
+
+How are these patterns created?   In Bob's words, by `copying a photograph
+direct on to a blank sheet of paper transposing in my mind, from the
+photograph, the varying intensities of shading to the appropriate letters
+and punctuation marks, or combinations of same'.
+
+The advantages of using a computer rather than a typewriter to print the
+pictures are obvious: once the data has been programmed, one or more
+accurate hard copies can be produced in a matter of minutes.
+
+To run the program, make sure that GWBASIC.EXE is on the PATH, and that you
+are in the directory containing TYPEART.BAS, then type
+
+      GWBASIC TYPEART
+
+and follow the prompts.
+
+If your printer is not Epson FX or LQ compatible you will need to change
+three variables in the GW-Basic program:
+
+RESET.CODE$   resets the printer to its default settings.
+
+ZERO.LFEED$   executes a carriage return without line feed, i.e. moves
+              the print head back to the first column (needed for
+              overprinting).
+
+NORMAL.LFEED$ executes a line feed with a line spacing that produces
+              `square output'.  The line spacing should be such that if ten
+              lines of ten letter G's are printed, they produce a square.
