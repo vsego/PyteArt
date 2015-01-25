@@ -125,8 +125,8 @@ class img2dat:
 if __name__ == "__main__":
     """Check that the program is properly invoked"""
     if not 1 < len(argv) < 5:
-        stderr.write("Usage:", argv[0], "filename.png [brightness [contrast]]")
-        stderr.write("      ", argv[0], "filename.jpg [brightness [contrast]]")
+        stderr.write("Usage: " + argv[0] + " filename.png [brightness [contrast]]\n")
+        stderr.write("       " + argv[0] + " filename.jpg [brightness [contrast]]\n")
         exit(1)
     args = {
         "iname": argv[1]
